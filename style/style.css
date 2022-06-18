@@ -55,6 +55,31 @@ p {
           box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Montserrat300";
+  src: url("../static/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat400";
+  src: url("../static/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat500";
+  src: url("../static/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat600";
+  src: url("../static/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat700";
+  src: url("../static/Montserrat-Bold.ttf") format("truetype");
+}
+
 .header {
   background: #FED101;
   height: 550.5px;
@@ -75,10 +100,9 @@ p {
 }
 
 .header-top h3 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat700';
   font-style: normal;
   font-size: 30px;
-  font-weight: 700;
   letter-spacing: 0.1px;
   color: #333333;
   margin-right: 220px;
@@ -86,10 +110,9 @@ p {
 }
 
 .header-top a {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 14px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   margin: 0px 15px;
@@ -106,10 +129,9 @@ p {
 }
 
 .header-top p {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 20px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   text-decoration: underline;
@@ -127,20 +149,18 @@ p {
 }
 
 .header-filling h1 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat700';
   font-style: normal;
   font-size: 60px;
-  font-weight: 700;
   letter-spacing: 0.1px;
   color: #333333;
   margin-top: 50px;
 }
 
 .header-filling h2 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 28px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   margin-top: 10px;
@@ -148,10 +168,9 @@ p {
 }
 
 .header-filling a {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 20px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #FFFFFF;
   background: #FF352B;
@@ -171,10 +190,9 @@ p {
 }
 
 .header-filling li {
-  font-family: "Montserrat";
+  font-family: 'Montserrat400';
   font-style: normal;
   font-size: 14px;
-  font-weight: 400;
   letter-spacing: 0.1px;
   color: #333333;
 }
@@ -183,15 +201,15 @@ p {
   border: 2px solid #FFFFFF;
   width: 244.75px;
   height: 49px;
-  margin-left: 10px;
-  margin-top: -30px;
+  margin-left: 9px;
+  margin-top: -27px;
 }
 
 .image {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
   margin-left: 100px;
-  margin-top: -70px;
+  margin-top: -77px;
 }
 
 .main-top {
@@ -208,20 +226,18 @@ p {
 }
 
 .main-top h3 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 28px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   margin: 80px 0px 60px 0px;
 }
 
 .main-top-item-number h5 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat300';
   font-style: normal;
   font-size: 40px;
-  font-weight: 300;
   letter-spacing: 0.1px;
   color: #FED101;
   text-transform: uppercase;
@@ -229,14 +245,13 @@ p {
 }
 
 .main-top-item-number p {
-  font-family: "Montserrat";
+  font-family: 'Montserrat300';
   font-style: normal;
   font-size: 40px;
-  font-weight: 300;
   letter-spacing: 0.1px;
   color: #333333;
   text-transform: uppercase;
-  margin-top: -48.8px;
+  margin-top: -48.6px;
   width: 70px;
 }
 
@@ -245,20 +260,18 @@ p {
 }
 
 .main-top-item-filling h4 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 18px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   margin-top: 5px;
 }
 
 .main-top-item-filling P {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
   font-size: 15px;
-  font-weight: 500;
   letter-spacing: 0.1px;
   color: #5B5B5B;
   margin-top: 15px;
@@ -308,20 +321,18 @@ p {
 }
 
 .main-bottom h2 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 28px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   margin: 15px 0px;
 }
 
 .main-bottom h3 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat700';
   font-style: normal;
   font-size: 20px;
-  font-weight: 700;
   letter-spacing: 0.1px;
   color: #333333;
   margin-bottom: 45px;
@@ -354,40 +365,36 @@ p {
 }
 
 .main-bottom-item h4 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 20px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   margin: 40px 0px;
 }
 
 .main-bottom-item p {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
   font-size: 15px;
-  font-weight: 500;
   letter-spacing: 0.1px;
   color: #5B5B5B;
   margin: 10px 0px;
 }
 
 .main-bottom-item h5 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 30px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   margin: 40px 0px;
 }
 
 .main-bottom-item a {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
   font-size: 15px;
-  font-weight: 500;
   letter-spacing: 0.1px;
   color: #333333;
   background: #FED101;
@@ -418,10 +425,9 @@ p {
 }
 
 .reviews-info h2 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 28px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   margin-top: 60px;
@@ -429,10 +435,9 @@ p {
 }
 
 .reviews-button {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
   font-size: 20px;
-  font-weight: 600;
   letter-spacing: 0.1px;
   color: #333333;
   padding: 12.5px 60px;
@@ -463,39 +468,35 @@ p {
 }
 
 .reviews-item h3 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat700';
   font-style: normal;
   font-size: 20px;
-  font-weight: 700;
   letter-spacing: 0.1px;
   color: #333333;
   margin-bottom: 10px;
 }
 
 .reviews-item p {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
   font-size: 13px;
-  font-weight: 500;
   letter-spacing: 0.1px;
   color: #4B4B4B;
 }
 
 .reviews-item h4 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
   font-size: 13px;
-  font-weight: 500;
   letter-spacing: 0.1px;
   color: #4B4B4B;
   margin-bottom: 20px;
 }
 
 .reviews-item a {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
   font-size: 13px;
-  font-weight: 500;
   letter-spacing: 0.1px;
   color: #4B4B4B;
   text-decoration: underline;
@@ -516,7 +517,7 @@ p {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-top: 100px;
-  margin-left: 80px;
+  margin-left: 400px;
 }
 
 .footer-item:first-child {
@@ -549,25 +550,23 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 350px;
-  margin-left: 120px;
+  margin-left: 100px;
 }
 
 .footer-item h3 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat700';
   font-style: normal;
   font-size: 30px;
-  font-weight: 700;
   letter-spacing: 0.1px;
   color: #333333;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .footer-item p {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
   letter-spacing: 0.1px;
   color: #333333;
   text-decoration: underline;
@@ -579,33 +578,226 @@ p {
 }
 
 .footer-item ul > li a {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
   letter-spacing: 0.1px;
   color: #333333;
   margin: 50px 0px;
 }
 
 .footer-link {
-  font-family: "Montserrat";
+  font-family: 'Montserrat500';
   font-style: normal;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
   letter-spacing: 0.1px;
   color: #333333;
   margin-top: 60px;
 }
 
 .footer-button {
-  font-family: "Montserrat";
+  font-family: 'Montserrat600';
   font-style: normal;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
   letter-spacing: 0.1px;
   color: #333333;
-  padding: 12.5px 60px;
+  padding: 12.5px 50px;
   border: 2px solid #3B3B3B;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .image {
+    display: none;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header h3 {
+    margin-left: 50px;
+    margin-right: 150px;
+  }
+  .header h1 {
+    margin-left: -5px;
+    margin-top: 30px;
+  }
+  .header h2 {
+    margin-left: 210px;
+  }
+  .header-top {
+    margin-top: -20px;
+  }
+  .header-filling a {
+    margin-left: 240px;
+  }
+  .header-filling li {
+    margin: 0px 10px;
+  }
+  .header-filling ul {
+    margin-left: 110px;
+  }
+  .border {
+    margin-left: 250px;
+  }
+  .main-top-box {
+    margin-left: 150px;
+  }
+  .main-bottom-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 45px;
+  }
+  .main-bottom-item {
+    margin-bottom: 15px;
+  }
+  .reviews-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .reviews {
+    height: 1000px;
+  }
+  .reviews-item > a {
+    margin-bottom: 30px;
+  }
+  .map {
+    margin-left: -520px;
+  }
+  .footer-box {
+    margin-left: 25px;
+  }
+  .footer-item {
+    margin-left: 20px;
+  }
+  .footer-button {
+    padding: 12.5px 40px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .image {
+    display: none;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header h3 {
+    margin-left: 50px;
+    margin-right: 150px;
+  }
+  .header h1 {
+    margin-left: -5px;
+    margin-top: 30px;
+  }
+  .header h2 {
+    margin-left: 210px;
+  }
+  .header-top {
+    margin-top: -20px;
+  }
+  .header-filling a {
+    margin-left: 240px;
+  }
+  .header-filling li {
+    margin: 0px 10px;
+  }
+  .header-filling ul {
+    margin-left: 110px;
+  }
+  .border {
+    margin-left: 250px;
+  }
+  .main-top-box {
+    margin-left: 150px;
+  }
+  .main-bottom h3 {
+    text-align: center;
+  }
+  .main-bottom-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 45px;
+  }
+  .main-bottom-item {
+    margin-bottom: 15px;
+  }
+  .reviews-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .reviews {
+    height: 1000px;
+  }
+  .reviews-item > a {
+    margin-bottom: 30px;
+  }
+  .map {
+    margin-left: -480px;
+    margin-top: -100px;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    height: 333px;
+  }
+  .footer-box {
+    margin-left: 25px;
+  }
+  .footer-item {
+    margin-left: 20px;
+  }
+  .footer-button {
+    padding: 12.5px 40px;
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

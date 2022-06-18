@@ -1,6 +1,30 @@
 @import 'reset';
 
-$primary-font: 'Montserrat';
+
+@font-face {
+    font-family: "Montserrat300";
+    src: url("../static/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat400";
+    src: url("../static/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat500";
+    src: url("../static/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat600";
+    src: url("../static/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat700";
+    src: url("../static/Montserrat-Bold.ttf") format("truetype");
+}
 
 .header{
     background: #FED101;
@@ -9,10 +33,9 @@ $primary-font: 'Montserrat';
 
 .header-top {
     h3 {
-    font-family: $primary-font;
+    font-family: 'Montserrat700';
     font-style: normal;
     font-size: 30px;
-    font-weight: 700;
     letter-spacing: 0.1px;
     color: #333333;
     margin-right: 220px;
@@ -20,10 +43,9 @@ $primary-font: 'Montserrat';
     }
 
     a{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 14px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     margin: 0px 15px;
@@ -35,10 +57,9 @@ $primary-font: 'Montserrat';
     }
 
     p{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 20px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     text-decoration: underline;
@@ -58,20 +79,18 @@ $primary-font: 'Montserrat';
 
 .header-filling{
     h1{
-    font-family: $primary-font;
+    font-family: 'Montserrat700';
     font-style: normal;
     font-size: 60px;
-    font-weight: 700;
     letter-spacing: 0.1px;
     color: #333333;
     margin-top: 50px;
     }
     
     h2{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 28px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     margin-top: 10px;
@@ -79,10 +98,9 @@ $primary-font: 'Montserrat';
     }
 
     a{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 20px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #FFFFFF;
     background: #FF352B;
@@ -97,10 +115,9 @@ $primary-font: 'Montserrat';
     }
 
     li{
-    font-family: $primary-font;
+    font-family: 'Montserrat400';
     font-style: normal;
     font-size: 14px;
-    font-weight: 400;
     letter-spacing: 0.1px;
     color: #333333;
     }
@@ -110,24 +127,23 @@ $primary-font: 'Montserrat';
     border: 2px solid #FFFFFF;
     width: 244.75px;
     height: 49px;
-    margin-left: 10px;
-    margin-top: -30px;
+    margin-left: 9px;
+    margin-top: -27px;
 }
 
 .image{
     transform: scale(0.8);
     margin-left: 100px;
-    margin-top: -70px;
+    margin-top: -77px;
 }
 
 //  ---------------------------------------------- 2 часа ----------------------------------------------
 
 .main-top {
     h3{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 28px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     margin: 80px 0px 60px 0px;
@@ -140,10 +156,9 @@ $primary-font: 'Montserrat';
 
 .main-top-item-number{
     h5{
-    font-family: $primary-font;
+    font-family: 'Montserrat300';
     font-style: normal;
     font-size: 40px;
-    font-weight: 300;
     letter-spacing: 0.1px;
     color: #FED101; 
     text-transform: uppercase;
@@ -151,34 +166,31 @@ $primary-font: 'Montserrat';
     }
 
     p {
-    font-family: $primary-font;
+    font-family: 'Montserrat300';
     font-style: normal;
     font-size: 40px;
-    font-weight: 300;
     letter-spacing: 0.1px;
     color: #333333; 
     text-transform: uppercase;
-    margin-top: -48.8px;
+    margin-top: -48.6px;
     width: 70px;
     }
 }
 
 .main-top-item-filling{
     h4{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 18px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     margin-top: 5px;
     }
 
     P{
-    font-family: $primary-font;
+    font-family: 'Montserrat500';
     font-style: normal;
     font-size: 15px;
-    font-weight: 500;
     letter-spacing: 0.1px;
     color: #5B5B5B;
     margin-top: 15px;
@@ -208,20 +220,18 @@ $primary-font: 'Montserrat';
 
 .main-bottom{
     h2{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 28px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     margin: 15px 0px;
     }
 
     h3{
-    font-family: $primary-font;
+    font-family: 'Montserrat700';
     font-style: normal;
     font-size: 20px;
-    font-weight: 700;
     letter-spacing: 0.1px;
     color: #333333;
     margin-bottom: 45px;
@@ -240,40 +250,36 @@ $primary-font: 'Montserrat';
 
 .main-bottom-item{
     h4{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 20px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     margin: 40px 0px;
     }
 
     p{
-    font-family: $primary-font;
+    font-family: 'Montserrat500';
     font-style: normal;
     font-size: 15px;
-    font-weight: 500;
     letter-spacing: 0.1px;
     color: #5B5B5B;
     margin: 10px 0px;
     }
 
     h5{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 30px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     margin: 40px 0px;
     }
 
     a{
-    font-family: $primary-font;
+    font-family: 'Montserrat500';
     font-style: normal;
     font-size: 15px;
-    font-weight: 500;
     letter-spacing: 0.1px;
     color: #333333;
     background: #FED101;
@@ -301,10 +307,9 @@ $primary-font: 'Montserrat';
 
 .reviews-info{
     h2{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 28px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     margin-top: 60px;
@@ -317,10 +322,9 @@ $primary-font: 'Montserrat';
 }
 
 .reviews-button{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
     font-size: 20px;
-    font-weight: 600;
     letter-spacing: 0.1px;
     color: #333333;
     padding: 12.5px 60px;
@@ -335,39 +339,35 @@ $primary-font: 'Montserrat';
 
 .reviews-item{
     h3{
-    font-family: $primary-font;
+    font-family: 'Montserrat700';
     font-style: normal;
     font-size: 20px;
-    font-weight: 700;
     letter-spacing: 0.1px;
     color: #333333;
     margin-bottom: 10px;
     }
 
     p{
-    font-family: $primary-font;
+    font-family: 'Montserrat500';
     font-style: normal;
     font-size: 13px;
-    font-weight: 500;
     letter-spacing: 0.1px;
     color: #4B4B4B;
     }
 
     h4{
-    font-family: $primary-font;
+    font-family: 'Montserrat500';
     font-style: normal;
     font-size: 13px;
-    font-weight: 500;
     letter-spacing: 0.1px;
     color: #4B4B4B;
     margin-bottom: 20px;
     }
 
     a{
-    font-family: $primary-font;
+    font-family: 'Montserrat500';
     font-style: normal;
     font-size: 13px;
-    font-weight: 500;
     letter-spacing: 0.1px;
     color: #4B4B4B; 
     text-decoration: underline;
@@ -391,7 +391,7 @@ $primary-font: 'Montserrat';
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 400px;
 }
 
 .footer-item:first-child{
@@ -410,21 +410,19 @@ $primary-font: 'Montserrat';
 
 .footer-item{
     h3{
-    font-family: $primary-font;
+    font-family: 'Montserrat700';
     font-style: normal;
     font-size: 30px;
-    font-weight: 700;
     letter-spacing: 0.1px;
     color: #333333;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     }
 
     p{
-    font-family: $primary-font;
+    font-family: 'Montserrat500';
     font-style: normal;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
     letter-spacing: 0.1px;
     color: #333333;
     text-decoration: underline;
@@ -433,10 +431,9 @@ $primary-font: 'Montserrat';
 
     ul>li{
         a{
-        font-family: $primary-font;
+        font-family: 'Montserrat500';
         font-style: normal;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 18px;
         letter-spacing: 0.1px;
         color: #333333;
         margin: 50px 0px;
@@ -448,31 +445,200 @@ $primary-font: 'Montserrat';
     display: flex;
     flex-direction: column;
     width: 350px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .footer-link{
-    font-family: $primary-font;
+    font-family: 'Montserrat500';
     font-style: normal;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
     letter-spacing: 0.1px;
     color: #333333;
     margin-top: 60px;
 }
 
 .footer-button{
-    font-family: $primary-font;
+    font-family: 'Montserrat600';
     font-style: normal;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
     letter-spacing: 0.1px;
     color: #333333;
-    padding: 12.5px 60px;
+    padding: 12.5px 50px;
     border: 2px solid #3B3B3B;
+    margin-top: 20px;
 }
 
 // ---------------------------------------------- 1 час----------------------------------------------
 
 // По итогу:
 // Затрачено времени: 6 часов 30 минут
+
+@media (max-width: 768px){
+    .image{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+
+        h3 {
+            margin-left: 50px;
+            margin-right: 150px;
+        }
+
+        h1{
+            margin-left: -5px;
+            margin-top: 30px;
+        }
+
+        h2{
+            margin-left: 210px;
+        }
+    }
+
+    .header-top{
+        margin-top: -20px;
+    }
+    .header-filling{
+        a{
+        margin-left: 240px;
+        }
+        li{
+            margin: 0px 10px;
+        }
+        ul{
+            margin-left: 110px;
+        }
+    }
+    .border{
+        margin-left: 250px;
+    }
+    .main-top-box{
+        margin-left: 150px;
+    }
+    .main-bottom-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 45px;
+    }
+    .main-bottom-item{
+        margin-bottom: 15px;
+    }
+    .reviews-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .reviews{
+        height: 1000px;
+    }
+    .reviews-item>a{
+        margin-bottom: 30px;
+    }
+    .map{
+        margin-left: -520px;
+    }
+    .footer-box{
+        margin-left: 25px;
+    }
+    .footer-item{
+        margin-left: 20px;
+    }
+    .footer-button{
+        padding: 12.5px 40px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 360px){
+    .image{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+
+        h3 {
+            margin-left: 50px;
+            margin-right: 150px;
+        }
+
+        h1{
+            margin-left: -5px;
+            margin-top: 30px;
+        }
+
+        h2{
+            margin-left: 210px;
+        }
+    }
+
+    .header-top{
+        margin-top: -20px;
+    }
+    .header-filling{
+        a{
+        margin-left: 240px;
+        }
+        li{
+            margin: 0px 10px;
+        }
+        ul{
+            margin-left: 110px;
+        }
+    }
+    .border{
+        margin-left: 250px;
+    }
+    .main-top-box{
+        margin-left: 150px;
+    }
+    .main-bottom{
+        h3{
+            text-align: center;
+        }
+    }
+    .main-bottom-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 45px;
+    }
+    .main-bottom-item{
+        margin-bottom: 15px;
+    }
+    .reviews-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .reviews{
+        height: 1000px;
+    }
+    .reviews-item>a{
+        margin-bottom: 30px;
+    }
+    .map{
+        margin-left: -480px;
+        margin-top: -100px;
+        transform: scale(0.5);
+        height: 333px;
+    }
+    .footer-box{
+        margin-left: 25px;
+    }
+    .footer-item{
+        margin-left: 20px;
+    }
+    .footer-button{
+        padding: 12.5px 40px;
+        margin-top: 20px;
+    }
+}
