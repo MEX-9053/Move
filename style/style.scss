@@ -137,8 +137,6 @@
     margin-top: -77px;
 }
 
-//  ---------------------------------------------- 2 часа ----------------------------------------------
-
 .main-top {
     h3{
     font-family: 'Montserrat600';
@@ -298,8 +296,6 @@
     border: 1px solid #FED101;
 }
 
-// ---------------------------------------------- 2 часа 30 минут ----------------------------------------------
-
 .reviews{
     background: #FED101;
     height: 500px;
@@ -379,8 +375,6 @@
     width: 327px;
     margin: 0px 15px;
 }
-
-// ---------------------------------------------- 1 час ----------------------------------------------
 
 .footer{
     background: #FED101;
@@ -468,11 +462,6 @@
     margin-top: 20px;
 }
 
-// ---------------------------------------------- 1 час----------------------------------------------
-
-// По итогу:
-// Затрачено времени: 6 часов 30 минут
-
 @media (max-width: 768px){
     .image{
         display: none;
@@ -490,6 +479,7 @@
         h1{
             margin-left: -5px;
             margin-top: 30px;
+            font-size: 50px;
         }
 
         h2{
@@ -562,41 +552,63 @@
     .header{
         display: flex;
         align-items: center;
+        width: 360px;
+        height: 590px;
+        padding-top: 10px;
 
         h3 {
-            margin-left: 50px;
-            margin-right: 150px;
+            margin: 10px 0px;
         }
 
         h1{
-            margin-left: -5px;
-            margin-top: 30px;
+            margin-left: -15px;
+            margin-top: 0px;
+            text-align: center;
         }
 
         h2{
-            margin-left: 210px;
+            margin-left: 10px;
+            margin-bottom: 40px;
+            margin-top: 20px;
         }
     }
 
     .header-top{
-        margin-top: -20px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -20px;
+        P{
+            margin: 20px 0px 10px 0px;
+        }
     }
     .header-filling{
         a{
-        margin-left: 240px;
+        margin-left: 35px;
         }
         li{
-            margin: 0px 10px;
+            margin: 20px 10px;
         }
         ul{
-            margin-left: 110px;
+            margin: 20px;
+            margin-left: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
     .border{
-        margin-left: 250px;
+        margin-left: 45px;
     }
     .main-top-box{
-        margin-left: 150px;
+        margin-left: 0px;
+    }
+    .main-top-item-filling{
+        width: 270px;
+        P{
+        margin-bottom: 25px;
+        }
     }
     .main-bottom{
         h3{
@@ -631,14 +643,39 @@
         transform: scale(0.5);
         height: 333px;
     }
+    .footer{
+        height: 660px;
+        width: 360px;
+    }
+    .footer-link{
+        margin-top: 30px;
+        text-align: center;
+    }
     .footer-box{
-        margin-left: 25px;
+        margin-left: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        h3{
+            margin-bottom: 0px;
+        }
     }
     .footer-item{
-        margin-left: 20px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        ul{
+            margin-left: 150px;
+            margin-top: 5px;
+        }
     }
     .footer-button{
         padding: 12.5px 40px;
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-left: 0px;
     }
 }
